@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "employee",
+            "otherEntityName": "employee",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "jobTitle",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "minSalary",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "maxSalary",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180417185944",
+    "entityTableName": "job",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "angularJSSuffix": "mySuffix",
+    "microserviceName": "kafka"
+}
